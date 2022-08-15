@@ -1,0 +1,74 @@
+:root {
+    --background-body: #202632;
+    --background-container: #313A49;
+    --fonte-neon:#52FEA9;
+    --fonte-body: #C0D3DA;
+    --fonte-principal: 'Manrope', sans-serif;
+    --tamanho-fonte: 24px;
+
+}
+
+body{
+    background-color: var(--background-body);
+    width: 100vw;
+    height: 70vh;
+}
+
+.container__advice{
+    font-family: var(--fonte-principal);
+    background-color: var(--background-container);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    width: 30vw;
+    height: 35vh;
+    margin-top: 150px;
+    margin-left: auto;
+    padding: 30px 30px 50px 30px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.container__numero-advice{
+    color: var(--fonte-neon);
+    font-size: 12px;
+    letter-spacing: 0.2em;
+}
+
+.container__conteudo-advice{
+    color: var(--fonte-body);
+    font-size: var(--tamanho-fonte);
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.container__imagem{
+    width: 95%;
+}
+
+.botao{
+    background-color: var(--fonte-neon);
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 420px;
+    
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 40px var(--fonte-neon);
+}
+
+.botao__imagem{
+    width: 90%;
+    vertical-align: middle;
+}
+
+.container__principal{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
