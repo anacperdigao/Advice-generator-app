@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px){
+    
+    .container__advice{
+        width: 90vw;
+        height: 42vh;
+        padding: 30px 0px;
+    }
+
+    .botao{
+        top: 465px;
+    }
+
+    .container__conteudo-advice{
+        padding: 0px 10px;
+    }
+
+}

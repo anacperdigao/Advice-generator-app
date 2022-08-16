@@ -8,10 +8,15 @@
 
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: var(--background-body);
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
+    
 }
 
 .container__advice{
@@ -21,13 +26,14 @@ body{
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    width: 30vw;
-    height: 35vh;
+    width: 33vw;
+    height: 48vh;
     margin-top: 150px;
     margin-left: auto;
     padding: 30px 30px 50px 30px;
     border-radius: 10px;
     position: absolute;
+    z-index: 0;
 }
 
 .container__numero-advice{
@@ -55,6 +61,7 @@ body{
     border-radius: 50%;
     position: relative;
     top: 420px;
+    z-index: 10;
     
 }
 
